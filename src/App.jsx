@@ -15,12 +15,12 @@ export default function App() {
         <h2 className="register__heading">
           Build The Community Your Fans Will Love
         </h2>
-        <p className="register_sub-heading">
+        <p className="register__sub-heading">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
-          engage in genuine discussion.{' '}
+          engage in genuine discussion.
         </p>
-        <a className="register-link" href="">
+        <a className="register__link" href="">
           Register
         </a>
       </div>
