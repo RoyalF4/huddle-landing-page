@@ -64,6 +64,13 @@ body {
   width: 65%;
   margin: 0 auto;
   border-radius: 2rem;
+  box-shadow: 0 5px 10px hsla(0, 100%, 0%, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.register__link:hover {
+  background-color: var(--soft-magenta);
+  color: white;
 }
 
 .footer {
@@ -77,6 +84,13 @@ body {
   border: 2px solid white;
   padding: 0.6rem;
   border-radius: 50%;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-link:hover {
+  border-color: var(--soft-magenta);
+  color: var(--soft-magenta);
 }
 
 .icon {

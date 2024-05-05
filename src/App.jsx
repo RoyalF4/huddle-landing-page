@@ -25,9 +25,18 @@ export default function App() {
         </a>
       </div>
       <footer className="footer">
-        <Icon src="/images/icons8-facebook.svg" alt="facebook" />
-        <Icon src="/images/icons8-twitter.svg" alt="twitter" />
-        <Icon src="/images/icons8-instagram.svg" alt="instagram" />
+        <Icon>
+          {/* eslint-disable-next-line */}
+          <i class="bx bxl-facebook"></i>
+        </Icon>
+        <Icon>
+          {/* eslint-disable-next-line */}
+          <i class="bx bxl-twitter"></i>
+        </Icon>
+        <Icon>
+          {/* eslint-disable-next-line */}
+          <i class="bx bxl-instagram"></i>
+        </Icon>
       </footer>
     </>
   );
